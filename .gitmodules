@@ -1,0 +1,6 @@
+[submodule "rpgjs"]
+	path = rpgjs
+	url = git@github.com:ni-c/rpgjs.git
+[submodule "easeljs"]
+	path = easeljs
+	url = git@github.com:ni-c/EaselJS.git

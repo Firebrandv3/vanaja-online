@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="easeljs/lib/easeljs-0.5.0.min.js"></script>
+
+    <script type="text/javascript" src="rpgjs/lib/load.js"></script>
+    <script type="text/javascript">
+      RPGJS.loadPath = "rpgjs/lib/";
+      RPGJS.load({
+        canvas : "vanaja",
+        type : "mmorpg",
+        server : "http://10.0.0.151:1337"
+      }, function(render) {
+        render.start();
+        render.onLoadMap(function() {
+
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="vanaja-parent">
+      <canvas id="vanaja" width="800px" height="600px"></canvas>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "vanaja-online",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node vanaja"
+  },
+  "dependencies": {
+    "requirejs": "2.1.2",
+    "socket.io": "0.9.11"
+  }
+}
+
